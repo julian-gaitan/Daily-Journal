@@ -1,0 +1,11 @@
+<%- include('partials/header'); -%>
+
+<h1><%= blog.header %></h1>
+<p><%= blog.body %></p>
+<% for (let i = 0; i < entries.length; i++) { %>
+    <h1><%= entries[i].header %></h1>
+    <p><%= entries[i].bodyPreview() %></p>
+    <a href="posts/<%= entries[i]._id %>">Read More</a>
+<% } %>
+
+<%- include('partials/footer'); -%>

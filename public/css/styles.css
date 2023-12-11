@@ -1,0 +1,94 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(236, 236, 236);
+    padding: 30px 15%;
+}
+
+header a {
+    color: gray;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header a:first-child {
+    cursor: auto;
+}
+
+header a:hover {
+    color: #1abc9c;
+}
+
+header a:first-child {
+    color: gray;
+}
+
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+main {
+    padding: 30px 15%;
+    margin-bottom: 3.5rem;
+}
+
+main p {
+    display: inline-block;
+}
+
+main a {
+    text-decoration: none;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    display: block;
+    width: 100%;
+}
+
+form textarea {
+    display: block;
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: rgb(31, 65, 168);
+    border-radius: 10px;
+    color: #FFF;
+    padding: 8px 16px;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(238, 242, 242);
+    bottom: 0;
+    font-family: serif;
+    height: 3.5rem;
+    letter-spacing: 0.05rem;
+    line-height: 3.5rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
